@@ -1,0 +1,11 @@
+<div ngFor="let pelicula of peliculas" class="card" style="width: 18rem">
+    <img :src="pelicula.foto" class="card-img-top" alt="" />
+    <div class="card-body">
+        <h5 class="card-title">pelicula.titulo</h5>
+        <p class="card-text">
+            pelicula.argumento
+        </p>
+        <a :href="pelicula.enlaceVideo" class="btn btn-danger">Youtube</a>
+        <a class="btn btn-secondary">Detalles</a>
+    </div>
+</div>
